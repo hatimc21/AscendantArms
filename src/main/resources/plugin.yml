@@ -1,0 +1,16 @@
+name: AscendantArms
+version: 1.0.0
+main: hatim.plugings.ascendantArms.AscendantArms
+api-version: 1.21
+author: Hatim
+description: A framework for legendary, evolving weapons with unique abilities.
+commands:
+  mythic:
+    description: The base command for all Ascendant Arms features.
+    usage: /mythic <give|ascend> [weapon_id]
+    aliases: [aa]
+
+permissions:
+  ascendantarms.admin:
+    description: Allows usage of admin-level commands like /mythic give.
+    default: op
